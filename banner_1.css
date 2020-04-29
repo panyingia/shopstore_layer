@@ -5,6 +5,56 @@
     font-family: "Noto Sans JP";
     box-sizing: border-box;
 }
+/* product產品資訊 */
+.product{
+    width: 100%;
+    height: 100vh;
+    background: #777;
+    margin: auto;
+}
+.inner-product{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.product-wrap{
+    width: 350px;
+    padding: 25px;
+}
+.theme-preview{
+    position: relative;
+}
+.product-wrap .browser{
+    width: 100%;
+    height: 360px;
+    background-position: center 16px;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 2px 2px;
+    box-shadow: 0 10px 40px rgba(0,0,0,.15);
+    overflow: hidden;
+}
+.product-wrap .mobile{
+    background-color: #ecf0f1;
+    box-shadow: 0 15px 30px rgba(0,0,0,.15);
+    padding: 16px 3px;
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    border-radius: 8px;
+}
+.product-wrap a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+.product-wrap h2{
+    display: inline-block;
+    margin-top: 50px;
+}
+.product-wrap img{
+    width: 100%;
+}
 /* 協同合作LOGO */
 .co-wrap{
     width: 100%;
@@ -16,7 +66,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 100px 0 0;
 }
 .co-container h1{
     text-align: center;
