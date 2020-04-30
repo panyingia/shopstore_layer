@@ -31,7 +31,23 @@
     background-repeat: no-repeat;
     border-radius: 5px 5px 2px 2px;
     box-shadow: 0 10px 40px rgba(0,0,0,.15);
+    background-color: #eee;
+    padding-top: 20px ;
     overflow: hidden;
+    position: relative;
+}
+.product-wrap .browser::before{
+    content:'';
+    width: 8px;
+    height: 8px;
+    background-color: #aaa;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 18px 0px 0px 0px #aaa,
+                36px 0px 0px 0px #aaa;
+    top: 7px;
+    left: 8px;
 }
 .product-wrap .mobile{
     background-color: #ecf0f1;
