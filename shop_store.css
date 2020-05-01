@@ -12,20 +12,55 @@
 .banner-container{
     width: 100%;
     height: 100vh;
-    background: 
-                linear-gradient( rgba(0, 37, 247, 0.5),rgba(0, 37, 247, 0.3)),
-                url("images/woman-in-gray-sweater-using-macbook-pro-4134776.jpg")center ;
+    background: url("images/woman-in-gray-sweater-using-macbook-pro-4134776.jpg")center ;
     background-size: cover;
 }
 .banner-container .txt{
     height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .banner-container h1{
      font-size: 70px;
      color: #fff;
+}
+.banner-container h2{
+    color: #fff;
+}
+.input-group{
+    background: #ffffff;
+    margin-top: 100px;
+    width: 100%;
+    padding: 2px 1px;
+    display: flex;
+    border-radius: 5px;
+}
+.input-group .input-control{
+    border: none;
+    /* display: block; */
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 400px;
+}
+input{
+    outline: 0;
+  }
+  input:focus{
+    border-color: #ff6;
+    box-shadow: 1px 2px 1px #996;
+  }
+.input-group .btn{
+    border: none;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    background: #da3085;
+    font-weight: 700;
+    cursor: pointer;
 }
 /* END banner */
 /* product產品資訊 */
