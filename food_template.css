@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Noto Sans JP";
+    box-sizing: border-box;
+}
+body{
+    background:#000;
+}
+.motion-banner{
+    width: 1200px;
+    margin: auto;
+}
+.banner-container{
+    width: 100%;
+}
+.banner-container video{
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+}

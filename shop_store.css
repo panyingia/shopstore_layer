@@ -36,8 +36,12 @@
 }
 .nav-group a{
     margin-right: 20px;
-    color: #fff;
+    color: #ddd;
     text-decoration: none;
+}
+.nav-group a:hover{
+    color: #fff;
+    transform: translateY(-20px);
 }
 /* END nav */
 /* banner */
