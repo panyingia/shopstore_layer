@@ -1,10 +1,5 @@
 @media(max-width:600px){
-    .banner-container .txt h1{
-        font-size: 30px;
-        color: #fff;
-   }
 
-}
 *{
     padding: 0;
     margin: 0;
@@ -13,36 +8,41 @@
     box-sizing: border-box;
 }
 /* nav */
-.nav-wrap{
+/* .nav-wrap{
     width: 100%;
     position: absolute;
     z-index: 2;
-}
+} */
 .nav-container{
-    background: #999;
-    display: flex;
-    height: 80px;
+    background: rgb(153, 153, 153);
+    /* display: flex; */
+    height: 300px; 
 }
 .nav-container .logo{
-    width: 80px;
-    height: 80px;
-    margin: 0px 20px 20px;
+    /* width: 80px;
+    height: 80px; */
+    position: absolute;
+    /* margin: 0px 20px 20px; */
+    display: none;
 }
 .nav-container .logo img{
-    width: 100%;
+    /* width: 100%; */
 }
-.nav-group{
+/* .nav-group{
     width: 100%;
     align-self: center;
-}
+} */
 .nav-group ul{
-    display: flex;
-    justify-content: center;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: -290px;
+    /* justify-content: center;
     align-items: center;
-    margin-left: 300px;
+    margin-left: 300px; */
 }
 .nav-group a{
-    margin-right: 20px;
+    /* margin-right: 20px; */
     color: #fff;
     text-decoration: none;
     font-size: 20px;
@@ -78,20 +78,20 @@
     color: #fff;
 }
 .input-group{
-    background: #ffffff;
-    margin-top: 100px;
-    width: 100%;
-    padding: 2px 1px;
-    display: flex;
-    border-radius: 5px;
+    /* background: #ffffff; */
+    /* margin-top: 100px; */
+    /* width: 100%; */
+    /* padding: 2px 1px; */
+    display: block;
+    /* border-radius: 5px; */
 }
 .input-group .input-control{
     border: none;
-    /* display: block; */
+    display: none;
     padding: 15px;
     border-radius: 5px;
     font-size: 1em;
-    width: 400px;
+    width: 300px;
 }
 input{
     outline: 0;
@@ -102,10 +102,11 @@ input{
   }
 .input-group .btn{
     border: none;
-    width: 200px;
+    width: 150px;
+    height: 50px;
     border-radius: 5px;
     font-size: 18px;
-    color: #fff;
+    /* color: #fff; */
     background: #da3085;
     font-weight: 700;
     cursor: pointer;
@@ -119,7 +120,8 @@ input{
 }
 .inner-product{
     width: 100%;
-    display: flex;
+    display: block;
+    margin-left: 5px;
     justify-content: space-around;
 }
 .product-wrap{
@@ -180,10 +182,10 @@ input{
 }
 /* 協同合作LOGO */
 .co-wrap{
-    width: 100%;
+    max-width: 100%;
 }
 .co-container{
-    width: 100%;
+    width: 600px;
     height: 250px;
     background: #eee;
     display: flex;
@@ -201,8 +203,8 @@ input{
     justify-content: space-around;
 }
 .coLogo-wrapper img{
-    width: 120px;
-    height: 60px;   
+    width: 80px;
+    height: 40px;   
 }
 /* 免費試用freeTest */
 .freeTest{
@@ -292,4 +294,5 @@ footer a:hover{
 }
 .copyright .term a{
   margin-right: 20px;
+}
 }
